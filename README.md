@@ -1,6 +1,8 @@
 杨福海：精通JFinal视频
 1.1 精通JFinal_课程简介
+
 1.2 JFinal入门_认识JFinal
+
 1.3 JFinal入门_JFinal的HelloWorld
 	A.添加jar包至lib目录，并添加到build path
 	B.编写web.xml
