@@ -9,7 +9,7 @@ public class HelloController extends Controller {
 	public void index() {
 		
 		// renderText("Hello JFinal World.");
-
+		//render("/hello.html");//通过“/”来访问WebRoot下到文件
 		// 生成json类型
 		Data data = new Data();
 		data.setAge(10);

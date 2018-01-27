@@ -25,3 +25,27 @@
 	E.导出war包tomcat运行
 		
 1.4 JFinal入门_详解JFinalConfig配置
+
+2.1 JFinal控制器详解_控制器Controller简介
+
+2.2 JFinal控制器详解_Action详解
+
+2.3 JFinal控制器详解_路由详解
+
+2.4 JFinal控制器详解_数据的接收
+
+2.4.1 JFinal控制器详解_getPara接收数据
+
+2.4.2 JFinal控制器详解_getModel和getBean批量数据接收
+
+2.4.3 JFinal控制器详解_getFile接收文件上传
+
+2.4.4 JFinal控制器详解_文件上传与CDN整合
+
+2.4.5 JFinal控制器详解_Http协议讲解
+
+
+
+
+
+
