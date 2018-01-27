@@ -84,9 +84,10 @@ public class IndexController extends Controller {
 		renderText("uploading");
 	}
 
+	//如果route里已经定义里actionKey为/hello,则会有提示（actionKey already exist）
 	/*
 	 * public void hello(){
-	 * 
+	 *
 	 * }
 	 */
 }
