@@ -46,7 +46,7 @@ public class DemoConfig extends JFinalConfig {
 		// 20.设置token的缓存
 		me.setTokenCache(null);
 		// 21.设置url参数的分隔符（缺省：-）
-		//me.setUrlParaSeparator("@");
+		me.setUrlParaSeparator("@");
 
 	}
 
