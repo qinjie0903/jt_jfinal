@@ -38,20 +38,16 @@ public class IndexController extends Controller {
 		System.out.println("subtitle===" + subtitle);
 		System.out.println("content===" + content);
 
-		/*
-		 * Article article =
-		 * getBean(Article.class,"");//在html页面中的name属性设置为ar1而不是javabean类名; 传入""则相当于前缀没有
-		 * //Article article = getModel(Article.class,"");//用法和getBean一样，
-		 * 不过model传入的类必须和数据库有映射的JFinal Model;
-		 * 
-		 * 
-		 * System.out.println("Article:"+article.toString());
-		 * 
-		 * System.out.println("id:"+article.getId());
-		 * System.out.println("title:"+article.getTitle());
-		 * System.out.println("subtitle:"+article.getSubtitle());
-		 * System.out.println("content:"+article.getContent());
-		 */
+		Article article = getBean(Article.class, "");// 在html页面中的name属性设置为ar1而不是javabean类名; 传入""则相当于前缀没有
+		// Article article = getModel(Article.class,"");//用法和getBean一样，
+		// 不过model传入的类必须和数据库有映射的JFinal Model;
+
+		System.out.println("Article:" + article.toString());
+
+		System.out.println("id:" + article.getId());
+		System.out.println("title:" + article.getTitle());
+		System.out.println("subtitle:" + article.getSubtitle());
+		System.out.println("content:" + article.getContent());
 
 		/*
 		 * String s1 = getRequest().getHeader("User-Agent"); String s2 =
