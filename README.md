@@ -1,4 +1,4 @@
-杨福海：精通JFinal视频
+杨福海：精通JFinal视频 JFinal2.2版本
 1.1 精通JFinal_课程简介
 
 1.2 JFinal入门_认识JFinal
